@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div align="center">
+    <table style="width: auto;" border="1">
+
+        <caption>Invoice Tabular Data</caption>
+
+        <tr>
+            <th class="left" colspan="3">Invoice #123456789</th>
+            <th class="right">January 2025</th>
+        </tr>
+        <tr style="background-color: rgb(219, 156, 156); color: black;">
+            <td class="left" colspan="2">
+                <ul>
+                    <li>
+                        <b>Pay to:</b>
+                    </li>
+                    <li>Acme Billing Co.</li>
+                    <li>23 Main St.</li>
+                    <li>Cityville, NA 12345 </li>
+    
+                </ul>
+            </td>
+            <td colspan="2">
+                <ul>
+                    <li>
+                        <b>Customer:</b>
+                    </li>
+                    <li>John Smith
+                    </li>
+                    <li>321 Willow Way</li>
+                    <li>Southeast Northwestershire, MA 54321</li>
+    
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th class="left">Name / Description</th>
+            <th>Qty.</th>
+            <th>@</th>
+            <th class="right">Cost</th>
+
+        </tr>
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+
+        </tr>
+        <tr>
+            <td>Staples(box)</td>
+            <td>100</td>
+            <td>1.00</td>
+            <td>100.00</td>
+
+        </tr>
+        <tr>
+            <td>Paperclips</td>
+            <td>100</td>
+            <td>1.00</td>
+            <td>110.00</td>
+
+        </tr>
+        <tr>
+            <td colspan="3"><b>Subtotal</b></td>
+            <td>110.00</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Tax</b></td>
+            <td>8%</td>
+            <td>8.80</td>
+        </tr>
+        <tr>
+            <th class="left" colspan="3">Grand Total</th>
+            <th class="right">$118.80</th>
+        </tr>
+
+    </table>
+    </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Information Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form class="info-form">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Name:</td>
+          <td><input type="text" placeholder="Type your name here"></td>
+        </tr>
+        <tr>
+          <td>Sex:</td>
+          <td>
+            <label><input type="radio" name="sex" value="male"> Male</label><br>
+            <label><input type="radio" name="sex" value="female"> Female</label><br>
+            <label><input type="radio" name="sex" value="other"> Other</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Eye Color</td>
+          <td>
+            <select>
+              <option>black</option>
+              <option>brown</option>
+              <option>blue</option>
+              <option>green</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Check all the Applies</td>
+          <td>
+            <label><input type="checkbox"> Over 6ft. Tall</label><br>
+            <label><input type="checkbox"> Over 200 pounds</label><br>
+            <label><input type="checkbox"> Less than 200 pounds</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Describe your athletic ability</td>
+          <td><textarea rows="5" cols="30"></textarea></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="submit-btn">
+      <button type="submit">Enter my Information</button>
+    </div>
+  </form>
+</body>
+</html>
